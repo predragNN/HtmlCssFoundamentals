@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #000000;
+    position: relative;
+}
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #FF0000;
+}
+
+p,
+li {
+    color: gray;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.nav-header {
+    background-color: #3D0000;
+    padding: 30px 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+aside {
+    padding: 30px 0;
+    border-top: 5px solid #FF0000;
+    border-bottom: 5px solid #FF0000;
+    background-color: #3D0000;
+    margin-bottom: 60px;
+    width: 500px;
+}
+
+ul, ol {
+    margin-left: 50px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+li:last-child {
+    margin-bottom: 0;
+}
+
+/*footer p {
+    font-size: 16px;
+    text-align: center;
+}
+article header p {
+    font-size: 16px;
+    font-style: italic;
+} THIS IS THE FIRST WAY, USING DESENDANCE SELECTOR */
+
+/*THE SECOND WAY USING ID SELECTOR, HASH SELECTOR*/
+#author {
+    font-size: 16px;
+    font-style: italic;
+}
+#copyright {
+    font-size: 16px;
+    text-align: center;
+}
+
+/*THIRD WAY, USING CLASSES */
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related-posts-list {
+    list-style: none;
+}
+
+.post-header {
+    margin-bottom: 30px;
+}
+
+/*li:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    font-style: italic;
+}
+li:nth-child(odd){
+    color: red;
+}*/
+
+/* STYLING LINKS */
+a:link {
+    color: #FF0000;
+    text-decoration: none;
+}
+a:visited {
+    color: #FF0000;
+}
+a:hover {
+    cursor: pointer;
+    color: #950101;
+    text-decoration: underline #950101;
+}
+
+nav {
+    font-size: 20px;
+}
+
+nav a:link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+nav a:link:last-child {
+    margin-right: 0;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
+.like-btn {
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: #950101;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+}
+
